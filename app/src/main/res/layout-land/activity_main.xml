@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#c84d4d">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Navigating activities!"
+        android:id="@+id/textView"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Launch activity 1"
+        android:id="@+id/button_c1"
+        android:layout_below="@+id/textView"
+
+        android:layout_marginTop="46dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Launch activity 2"
+        android:id="@+id/button_c2"
+        android:layout_marginTop="106dp"
+
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="right" />
+</LinearLayout>
