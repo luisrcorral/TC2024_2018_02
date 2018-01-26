@@ -13,11 +13,11 @@ public class child1 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_child1);
 
-        Button buttonnBack;
+        Button buttonBack;
 
-        buttonnBack = (Button) findViewById(R.id.button);
+        buttonBack = (Button) findViewById(R.id.button);
 
-        buttonnBack.setOnClickListener(new View.OnClickListener() {
+        buttonBack.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
 
